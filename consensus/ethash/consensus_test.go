@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/etherbanking/go-etherbanking/common/math"
+	"github.com/etherbanking/go-etherbanking/core/types"
+	"github.com/etherbanking/go-etherbanking/params"
 )
 
 type diffTest struct {

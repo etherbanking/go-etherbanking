@@ -27,16 +27,16 @@ import (
 
 	goruntime "runtime"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/compiler"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/core/vm/runtime"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/etherbanking/go-etherbanking/cmd/evm/internal/compiler"
+	"github.com/etherbanking/go-etherbanking/cmd/utils"
+	"github.com/etherbanking/go-etherbanking/common"
+	"github.com/etherbanking/go-etherbanking/core"
+	"github.com/etherbanking/go-etherbanking/core/state"
+	"github.com/etherbanking/go-etherbanking/core/vm"
+	"github.com/etherbanking/go-etherbanking/core/vm/runtime"
+	"github.com/etherbanking/go-etherbanking/ethdb"
+	"github.com/etherbanking/go-etherbanking/log"
+	"github.com/etherbanking/go-etherbanking/params"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/etherbanking/go-etherbanking/common"
+	"github.com/etherbanking/go-etherbanking/crypto"
 )
 
 func ExampleNewNode() {
@@ -79,7 +79,7 @@ var parseNodeTests = []struct {
 		wantError: `invalid discport in query`,
 	},
 	{
-		rawurl: "enode://1dd9d65c4552b5eb43d5ad55a2ee3f56c6cbc1c64a5c8d659f51fcd51bace24351232b8d7821617d2b29b54b81cdefb9b3e9c37d7fd5f63270bcc9e1a6f6a439@127.0.0.1:52150",
+		rawurl: "enode://d1ea65eea9922a1c3deffcbfa32cb41852aa1dc5e485852bdb93c0c3eab4f6258d37f35d89d7926bd7299d7a0288c2e17ff8c7719b265b5b5e2b2057c62e601f@45.76.206.141:62688",
 		wantResult: NewNode(
 			MustHexID("0x1dd9d65c4552b5eb43d5ad55a2ee3f56c6cbc1c64a5c8d659f51fcd51bace24351232b8d7821617d2b29b54b81cdefb9b3e9c37d7fd5f63270bcc9e1a6f6a439"),
 			net.IP{0x7f, 0x0, 0x0, 0x1},

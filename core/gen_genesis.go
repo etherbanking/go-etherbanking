@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/etherbanking/go-etherbanking/common"
+	"github.com/etherbanking/go-etherbanking/common/hexutil"
+	"github.com/etherbanking/go-etherbanking/common/math"
+	"github.com/etherbanking/go-etherbanking/params"
 )
 
 func (g Genesis) MarshalJSON() ([]byte, error) {

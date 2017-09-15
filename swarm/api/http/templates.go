@@ -20,7 +20,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/ethereum/go-ethereum/swarm/api"
+	"github.com/etherbanking/go-etherbanking/swarm/api"
 )
 
 type htmlListData struct {

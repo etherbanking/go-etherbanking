@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/swarm"
+	"github.com/etherbanking/go-etherbanking/accounts/keystore"
+	"github.com/etherbanking/go-etherbanking/internal/cmdtest"
+	"github.com/etherbanking/go-etherbanking/node"
+	"github.com/etherbanking/go-etherbanking/p2p"
+	"github.com/etherbanking/go-etherbanking/rpc"
+	"github.com/etherbanking/go-etherbanking/swarm"
 )
 
 func init() {
