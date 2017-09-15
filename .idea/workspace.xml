@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33319820-56d1-45f4-b189-0175db4a8533" name="Default" comment="" />
+    <list default="true" id="33319820-56d1-45f4-b189-0175db4a8533" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/genesis.go" afterPath="$PROJECT_DIR$/core/genesis.go" />
+    </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,37 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="node_example_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/node_example_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/node_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="defaults.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/defaults.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootnodes.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootnodes.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/params/bootnodes.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -52,12 +24,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flags.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/utils/flags.go">
+      <file leaf-file-name="tx_pool.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/tx_pool.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="541" column="22" lean-forward="false" selection-start-line="541" selection-start-column="5" selection-end-line="541" selection-end-column="22" />
+            <state relative-caret-position="281">
+              <caret line="556" column="29" lean-forward="false" selection-start-line="556" selection-start-column="26" selection-end-line="556" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="txpool_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/light/txpool_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="61" column="57" lean-forward="false" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="57" />
+              <folding>
+                <element signature="e#808#1231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="txpool.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/light/txpool.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="357" column="55" lean-forward="true" selection-start-line="357" selection-start-column="55" selection-end-line="357" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lightchain_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/light/lightchain_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1122">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genesis.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/genesis.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="314" column="27" lean-forward="false" selection-start-line="314" selection-start-column="27" selection-end-line="314" selection-end-column="27" />
+              <folding>
+                <element signature="e#807#1364#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,16 +118,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/params/config_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -132,6 +138,9 @@
       <find>MainnetBootnodes</find>
       <find>net.ResolveUDPAddr</find>
       <find>net.ResolveUDPAddr62688</find>
+      <find>0x2fefd8</find>
+      <find>exceeds block gas limit</find>
+      <find>ErrGasLimit</find>
     </findStrings>
     <replaceStrings>
       <replace>etherbanking/go-etherbanking</replace>
@@ -148,13 +157,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/core/genesis_alloc.go" />
-        <option value="$PROJECT_DIR$/core/genesis.go" />
         <option value="$PROJECT_DIR$/params/config.go" />
         <option value="$PROJECT_DIR$/node/defaults.go" />
         <option value="$PROJECT_DIR$/build/env.sh" />
         <option value="$PROJECT_DIR$/cmd/utils/flags.go" />
         <option value="$PROJECT_DIR$/p2p/discover/node_test.go" />
         <option value="$PROJECT_DIR$/params/bootnodes.go" />
+        <option value="$PROJECT_DIR$/core/genesis.go" />
       </list>
     </option>
   </component>
@@ -164,7 +173,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="14" />
     <option name="y" value="-1" />
     <option name="width" value="1772" />
@@ -194,27 +203,6 @@
               <item name="go-etherbanking" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-etherbanking" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="go-etherbanking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-etherbanking" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-etherbanking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-etherbanking" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-etherbanking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-etherbanking" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="discover" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-etherbanking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-etherbanking" type="462c0819:PsiDirectoryNode" />
-              <item name="params" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -241,7 +229,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -274,14 +262,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4902">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p2p/peer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2040">
@@ -386,16 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/genesis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="313" column="106" lean-forward="false" selection-start-line="313" selection-start-column="40" selection-end-line="313" selection-end-column="106" />
-          <folding>
-            <element signature="e#807#1364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/params/config.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4270">
@@ -449,7 +419,7 @@
         <state relative-caret-position="-2352">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#808#912#0" expanded="true" />
+            <element signature="e#808#912#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,6 +629,50 @@
         <state relative-caret-position="221">
           <caret line="22" column="163" lean-forward="false" selection-start-line="22" selection-start-column="163" selection-end-line="22" selection-end-column="163" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/txpool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="357" column="55" lean-forward="true" selection-start-line="357" selection-start-column="55" selection-end-line="357" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/lightchain_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/tx_pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="556" column="29" lean-forward="false" selection-start-line="556" selection-start-column="26" selection-end-line="556" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/txpool_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="61" column="57" lean-forward="false" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="57" />
+          <folding>
+            <element signature="e#808#1231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/genesis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="314" column="27" lean-forward="false" selection-start-line="314" selection-start-column="27" selection-end-line="314" selection-end-column="27" />
+          <folding>
+            <element signature="e#807#1364#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
