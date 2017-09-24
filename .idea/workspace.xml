@@ -2,105 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33319820-56d1-45f4-b189-0175db4a8533" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/genesis.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/accountcmd.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/accountcmd_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/bugcmd.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/chaincmd.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/config.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/consolecmd.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/consolecmd_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/dao_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/genesis_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/misccmd.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/monitorcmd.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/run_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/testdata/empty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/testdata/guswallet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/testdata/passwords.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/testdata/wrong-passwords.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/geth/usage.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/template.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/template.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/keystore/keystore_plain_test.go" afterPath="$PROJECT_DIR$/accounts/keystore/keystore_plain_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ci-notes.md" afterPath="$PROJECT_DIR$/build/ci-notes.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ci.go" afterPath="$PROJECT_DIR$/build/ci.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/deb.control" afterPath="$PROJECT_DIR$/build/deb.control" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/mvn.pom" afterPath="$PROJECT_DIR$/build/mvn.pom" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/nsis.geth.nsi" afterPath="$PROJECT_DIR$/build/nsis.geth.nsi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/nsis.install.nsh" afterPath="$PROJECT_DIR$/build/nsis.install.nsh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/nsis.uninstall.nsh" afterPath="$PROJECT_DIR$/build/nsis.uninstall.nsh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/pod.podspec" afterPath="$PROJECT_DIR$/build/pod.podspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle.yml" afterPath="$PROJECT_DIR$/circle.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/bootnode/main.go" afterPath="$PROJECT_DIR$/cmd/bootnode/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/faucet/faucet.go" afterPath="$PROJECT_DIR$/cmd/faucet/faucet.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/puppeth/module_dashboard.go" afterPath="$PROJECT_DIR$/cmd/puppeth/module_dashboard.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/puppeth/module_node.go" afterPath="$PROJECT_DIR$/cmd/puppeth/module_node.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_netstats.go" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_netstats.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/puppeth/wizard_node.go" afterPath="$PROJECT_DIR$/cmd/puppeth/wizard_node.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/swarm/main.go" afterPath="$PROJECT_DIR$/cmd/swarm/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/utils/flags.go" afterPath="$PROJECT_DIR$/cmd/utils/flags.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/wnode/main.go" afterPath="$PROJECT_DIR$/cmd/wnode/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consensus/ethash/consensus.go" afterPath="$PROJECT_DIR$/consensus/ethash/consensus.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/console.go" afterPath="$PROJECT_DIR$/console/console.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/containers/docker/develop-alpine/Dockerfile" afterPath="$PROJECT_DIR$/containers/docker/develop-alpine/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/containers/docker/develop-ubuntu/Dockerfile" afterPath="$PROJECT_DIR$/containers/docker/develop-ubuntu/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/containers/docker/master-alpine/Dockerfile" afterPath="$PROJECT_DIR$/containers/docker/master-alpine/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/containers/docker/master-ubuntu/Dockerfile" afterPath="$PROJECT_DIR$/containers/docker/master-ubuntu/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contracts/release/contract.sol" afterPath="$PROJECT_DIR$/contracts/release/contract.sol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/genesis.go" afterPath="$PROJECT_DIR$/core/genesis.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/genesis_alloc.go" afterPath="$PROJECT_DIR$/core/genesis_alloc.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/tx_pool.go" afterPath="$PROJECT_DIR$/core/tx_pool.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/backend.go" afterPath="$PROJECT_DIR$/eth/backend.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/config.go" afterPath="$PROJECT_DIR$/eth/config.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/filters/bench_test.go" afterPath="$PROJECT_DIR$/eth/filters/bench_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal/web3ext/web3ext.go" afterPath="$PROJECT_DIR$/internal/web3ext/web3ext.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/les/handler.go" afterPath="$PROJECT_DIR$/les/handler.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/accounts.go" afterPath="$PROJECT_DIR$/mobile/accounts.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/android_test.go" afterPath="$PROJECT_DIR$/mobile/android_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/big.go" afterPath="$PROJECT_DIR$/mobile/big.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/bind.go" afterPath="$PROJECT_DIR$/mobile/bind.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/common.go" afterPath="$PROJECT_DIR$/mobile/common.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/context.go" afterPath="$PROJECT_DIR$/mobile/context.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/discover.go" afterPath="$PROJECT_DIR$/mobile/discover.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/doc.go" afterPath="$PROJECT_DIR$/mobile/doc.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/ethclient.go" afterPath="$PROJECT_DIR$/mobile/ethclient.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/ethereum.go" afterPath="$PROJECT_DIR$/mobile/ethereum.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/geth.go" afterPath="$PROJECT_DIR$/mobile/geth.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/geth_android.go" afterPath="$PROJECT_DIR$/mobile/geth_android.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/geth_ios.go" afterPath="$PROJECT_DIR$/mobile/geth_ios.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/geth_other.go" afterPath="$PROJECT_DIR$/mobile/geth_other.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/init.go" afterPath="$PROJECT_DIR$/mobile/init.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/interface.go" afterPath="$PROJECT_DIR$/mobile/interface.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/logger.go" afterPath="$PROJECT_DIR$/mobile/logger.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/p2p.go" afterPath="$PROJECT_DIR$/mobile/p2p.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/params.go" afterPath="$PROJECT_DIR$/mobile/params.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/primitives.go" afterPath="$PROJECT_DIR$/mobile/primitives.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/types.go" afterPath="$PROJECT_DIR$/mobile/types.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vm.go" afterPath="$PROJECT_DIR$/mobile/vm.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/config.go" afterPath="$PROJECT_DIR$/node/config.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/config_test.go" afterPath="$PROJECT_DIR$/node/config_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/defaults.go" afterPath="$PROJECT_DIR$/node/defaults.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/node.go" afterPath="$PROJECT_DIR$/node/node.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/node_test.go" afterPath="$PROJECT_DIR$/p2p/discover/node_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/table.go" afterPath="$PROJECT_DIR$/p2p/discover/table.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/table_test.go" afterPath="$PROJECT_DIR$/p2p/discover/table_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/udp.go" afterPath="$PROJECT_DIR$/p2p/discover/udp.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/params/bootnodes.go" afterPath="$PROJECT_DIR$/params/bootnodes.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/params/config.go" afterPath="$PROJECT_DIR$/params/config.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/params/protocol_params.go" afterPath="$PROJECT_DIR$/params/protocol_params.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swarm/dev/Makefile" afterPath="$PROJECT_DIR$/swarm/dev/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swarm/dev/README.md" afterPath="$PROJECT_DIR$/swarm/dev/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swarm/dev/bashrc" afterPath="$PROJECT_DIR$/swarm/dev/bashrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swarm/dev/scripts/boot-cluster.sh" afterPath="$PROJECT_DIR$/swarm/dev/scripts/boot-cluster.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swarm/dev/scripts/stop-cluster.sh" afterPath="$PROJECT_DIR$/swarm/dev/scripts/stop-cluster.sh" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,7 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootnodes.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/params/bootnodes.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="141" lean-forward="false" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/params/config.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -147,16 +59,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -279,7 +181,6 @@
         <option value="$PROJECT_DIR$/eth/downloader/downloader.go" />
         <option value="$PROJECT_DIR$/params/protocol_params.go" />
         <option value="$PROJECT_DIR$/core/tx_pool.go" />
-        <option value="$PROJECT_DIR$/params/bootnodes.go" />
         <option value="$PROJECT_DIR$/build/ci.go" />
         <option value="$PROJECT_DIR$/eth/backend.go" />
         <option value="$PROJECT_DIR$/les/handler.go" />
@@ -289,6 +190,7 @@
         <option value="$PROJECT_DIR$/core/genesis.json" />
         <option value="$PROJECT_DIR$/core/genesis.go" />
         <option value="$PROJECT_DIR$/params/config.go" />
+        <option value="$PROJECT_DIR$/params/bootnodes.go" />
       </list>
     </option>
   </component>
@@ -330,12 +232,7 @@
             <path>
               <item name="go-etherbanking" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-etherbanking" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-etherbanking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-etherbanking" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="params" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -525,14 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/params/bootnodes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="141" lean-forward="false" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
           <folding />
         </state>
       </provider>
@@ -801,6 +690,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params/bootnodes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="141" lean-forward="false" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
           <folding />
         </state>
       </provider>
