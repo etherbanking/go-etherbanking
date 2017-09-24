@@ -32,10 +32,10 @@ import (
 )
 
 func ExampleNewNode() {
-	id := MustHexID("1dd9d65c4552b5eb43d5ad55a2ee3f56c6cbc1c64a5c8d659f51fcd51bace24351232b8d7821617d2b29b54b81cdefb9b3e9c37d7fd5f63270bcc9e1a6f6a439")
+	id := MustHexID("994eaa5d57a065343f0268c02ffdf5f773bbfe8296c88f97b0385defc5a177d331ff8a21fd2f10e24ede0650021f14787d8563cad72de3f3267c3d216713c05f")
 
 	// Complete nodes contain UDP and TCP endpoints:
-	n1 := NewNode(id, net.ParseIP("2001:db8:3c4d:15::abcd:ef12"), 52150, 30303)
+	n1 := NewNode(id, net.ParseIP("45.76.206.141"), 62688, 62688)
 	fmt.Println("n1:", n1)
 	fmt.Println("n1.Incomplete() ->", n1.Incomplete())
 
@@ -78,15 +78,7 @@ var parseNodeTests = []struct {
 		rawurl:    "enode://1dd9d65c4552b5eb43d5ad55a2ee3f56c6cbc1c64a5c8d659f51fcd51bace24351232b8d7821617d2b29b54b81cdefb9b3e9c37d7fd5f63270bcc9e1a6f6a439@127.0.0.1:3?discport=foo",
 		wantError: `invalid discport in query`,
 	},
-	{
-		rawurl: "enode://d1ea65eea9922a1c3deffcbfa32cb41852aa1dc5e485852bdb93c0c3eab4f6258d37f35d89d7926bd7299d7a0288c2e17ff8c7719b265b5b5e2b2057c62e601f@45.76.206.141:62688",
-		wantResult: NewNode(
-			MustHexID("0x1dd9d65c4552b5eb43d5ad55a2ee3f56c6cbc1c64a5c8d659f51fcd51bace24351232b8d7821617d2b29b54b81cdefb9b3e9c37d7fd5f63270bcc9e1a6f6a439"),
-			net.IP{0x7f, 0x0, 0x0, 0x1},
-			52150,
-			52150,
-		),
-	},
+
 	{
 		rawurl: "enode://1dd9d65c4552b5eb43d5ad55a2ee3f56c6cbc1c64a5c8d659f51fcd51bace24351232b8d7821617d2b29b54b81cdefb9b3e9c37d7fd5f63270bcc9e1a6f6a439@[::]:52150",
 		wantResult: NewNode(
@@ -97,12 +89,12 @@ var parseNodeTests = []struct {
 		),
 	},
 	{
-		rawurl: "enode://1dd9d65c4552b5eb43d5ad55a2ee3f56c6cbc1c64a5c8d659f51fcd51bace24351232b8d7821617d2b29b54b81cdefb9b3e9c37d7fd5f63270bcc9e1a6f6a439@[2001:db8:3c4d:15::abcd:ef12]:52150",
+		rawurl: "enode://fb5be50c3567747570eb58c60b02fda8c5864bf4aff7ece1263fc8ec45fade7fddf7a66bcd77dab793cfcdee16776f84c521664b26fe805bfec016923fba1452@[::]:62688",
 		wantResult: NewNode(
-			MustHexID("0x1dd9d65c4552b5eb43d5ad55a2ee3f56c6cbc1c64a5c8d659f51fcd51bace24351232b8d7821617d2b29b54b81cdefb9b3e9c37d7fd5f63270bcc9e1a6f6a439"),
-			net.ParseIP("2001:db8:3c4d:15::abcd:ef12"),
-			52150,
-			52150,
+			MustHexID("0xfb5be50c3567747570eb58c60b02fda8c5864bf4aff7ece1263fc8ec45fade7fddf7a66bcd77dab793cfcdee16776f84c521664b26fe805bfec016923fba1452"),
+			net.ParseIP("::"),
+			62688,
+			62688,
 		),
 	},
 	{

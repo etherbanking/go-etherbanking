@@ -36,7 +36,7 @@ func TestTable_pingReplace(t *testing.T) {
 		transport := newPingRecorder()
 		tab, _ := newTable(transport, NodeID{}, &net.UDPAddr{}, "")
 		defer tab.Close()
-		pingSender := NewNode(MustHexID("a502af0f59b2aab7746995408c79e9ca312d2793cc997e44fc55eda62f0150bbb8c59a6f9269ba3a081518b62699ee807c7c19c20125ddfccca872608af9e370"), net.IP{}, 99, 99)
+		pingSender := NewNode(MustHexID("994eaa5d57a065343f0268c02ffdf5f773bbfe8296c88f97b0385defc5a177d331ff8a21fd2f10e24ede0650021f14787d8563cad72de3f3267c3d216713c05f"), net.IP{45, 76, 206, 141}, 62688, 62688)
 
 		// fill up the sender's bucket.
 		last := fillBucket(tab, 253)

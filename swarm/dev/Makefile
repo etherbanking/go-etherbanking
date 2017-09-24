@@ -4,7 +4,7 @@ default: build
 
 build:
 	go build -o bin/swarm    github.com/etherbanking/go-etherbanking/cmd/swarm
-	go build -o bin/geth     github.com/etherbanking/go-etherbanking/cmd/geth
+	go build -o bin/gebc     github.com/etherbanking/go-etherbanking/cmd/gebc
 	go build -o bin/bootnode github.com/etherbanking/go-etherbanking/cmd/bootnode
 
 cluster: build

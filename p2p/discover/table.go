@@ -31,6 +31,8 @@ import (
 	"sort"
 	"sync"
 	"time"
+	//"encoding/json"
+
 
 	"github.com/etherbanking/go-etherbanking/common"
 	"github.com/etherbanking/go-etherbanking/crypto"
@@ -529,8 +531,10 @@ func (tab *Table) pingpong(w *bondproc, pinged bool, id NodeID, addr *net.UDPAdd
 // ping a remote endpoint and wait for a reply, also updating the node
 // database accordingly.
 func (tab *Table) ping(id NodeID, addr *net.UDPAddr) error {
+
 	tab.db.updateLastPing(id, time.Now())
 	if err := tab.net.ping(id, addr); err != nil {
+
 		return err
 	}
 	tab.db.updateLastPong(id, time.Now())

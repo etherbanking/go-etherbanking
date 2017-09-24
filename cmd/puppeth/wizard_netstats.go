@@ -168,8 +168,8 @@ func (p *protips) print(network string) {
 	// If a known genesis block is available, display it and prepend an init command
 	fullinit, lightinit := "", ""
 	if p.genesis != "" {
-		fullinit = fmt.Sprintf("geth --datadir=$HOME/.%s init %s.json && ", network, network)
-		lightinit = fmt.Sprintf("geth --datadir=$HOME/.%s --light init %s.json && ", network, network)
+		fullinit = fmt.Sprintf("gebc --datadir=$HOME/.%s init %s.json && ", network, network)
+		lightinit = fmt.Sprintf("gebc --datadir=$HOME/.%s --light init %s.json && ", network, network)
 	}
 	// If an ethstats server is available, add the ethstats flag
 	statsflag := ""

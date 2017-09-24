@@ -42,7 +42,7 @@ var DefaultConfig = Config{
 	WSModules:   []string{"net", "web3"},
 	P2P: p2p.Config{
 		ListenAddr:      ":62688",
-		DiscoveryV5Addr: ":63688",
+		DiscoveryV5Addr: ":62688",
 		MaxPeers:        25,
 		NAT:             nat.Any(),
 	},
@@ -55,11 +55,11 @@ func DefaultDataDir() string {
 	home := homeDir()
 	if home != "" {
 		if runtime.GOOS == "darwin" {
-			return filepath.Join(home, "Library", "Ethereum")
+			return filepath.Join(home, "Library", "Etherbanking")
 		} else if runtime.GOOS == "windows" {
-			return filepath.Join(home, "AppData", "Roaming", "Ethereum")
+			return filepath.Join(home, "AppData", "Roaming", "Etherbanking")
 		} else {
-			return filepath.Join(home, ".ethereum")
+			return filepath.Join(home, ".etherbanking")
 		}
 	}
 	// As we cannot guess a stable location, return empty and handle later

@@ -25,21 +25,21 @@ import (
 )
 
 var (
-	MainnetGenesisHash = common.HexToHash("0x27a016315e35da0f73fd3fbfbf1cab33ac810d9b419351f8915c7d0d2ac2a70a") // Mainnet genesis hash to enforce below configs on
+	MainnetGenesisHash = common.HexToHash("0x56c40bdf47d37f928261d4c36c6149b1a0b0071a08d5cbc792b477a1824f264a") // Mainnet genesis hash to enforce below configs on
 	TestnetGenesisHash = common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d") // Testnet genesis hash to enforce below configs on
 )
 
 var (
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainId:        big.NewInt(838792),
-		HomesteadBlock: big.NewInt(1150000),
-		DAOForkBlock:   big.NewInt(1920000),
+		ChainId:        big.NewInt(82870892),
+		HomesteadBlock: big.NewInt(200000),
+		DAOForkBlock:   nil,
 		DAOForkSupport: true,
 		EIP150Block:    big.NewInt(2463000),
 		EIP150Hash:     common.HexToHash("0x2086799aeebeae135c246c65021c82b4e15a2c451340993aacfd2751886514f0"),
-		EIP155Block:    big.NewInt(2675000),
-		EIP158Block:    big.NewInt(2675000),
+		EIP155Block:    big.NewInt(2463000),
+		EIP158Block:    big.NewInt(2463000),
 		ByzantiumBlock: big.NewInt(math.MaxInt64), // Don't enable yet
 
 		Ethash: new(EthashConfig),
