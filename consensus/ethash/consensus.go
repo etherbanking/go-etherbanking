@@ -39,6 +39,7 @@ var (
 	frontierBlockReward  *big.Int = big.NewInt(1e+14) // Block reward in wei for successfully mining a block
 	byzantiumBlockReward *big.Int = big.NewInt(3e+18) // Block reward in wei for successfully mining a block upward from Byzantium
 	maxUncles                     = 2                 // Maximum number of uncles allowed in a single block
+	eip998BlockReward	*big.Int  = big.NewInt(0)
 )
 
 // Various error messages to mark blocks invalid. These should be private to
@@ -532,6 +533,10 @@ func AccumulateRewards(config *params.ChainConfig, state *state.StateDB, header 
 	blockReward := frontierBlockReward
 	if config.IsByzantium(header.Number) {
 		blockReward = byzantiumBlockReward
+	}
+	
+	if config.IsEIP998(header.Number){
+		blockReward = eip998BlockReward
 	}
 	// Accumulate the rewards for the miner and any included uncles
 	reward := new(big.Int).Set(blockReward)
