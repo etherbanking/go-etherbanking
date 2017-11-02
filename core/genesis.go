@@ -311,7 +311,7 @@ func DefaultGenesisBlock() *Genesis {
 	return &Genesis{
 		Config:     params.MainnetChainConfig,
 		Nonce:      35,
-		Timestamp:  1509611141,
+		Timestamp:  1506816000,
 		ExtraData:  nil,
 		GasLimit:   4700000,
 		Difficulty: big.NewInt(4096),
