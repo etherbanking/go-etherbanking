@@ -21,6 +21,7 @@ build/_vendor/pkg
 *~
 .project
 .settings
+.classpath
 
 # used by the Makefile
 /build/_workspace/
@@ -30,3 +31,4 @@ build/_vendor/pkg
 # travis
 profile.tmp
 profile.cov
+/bin/
